@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Money Master</title>
+</head>
+<body>
+    <header class="monir">
+        <img class="block m-auto mt-4" src="assate/Money Master💰.png" alt="" srcset="">
+    </header>
+    <main class="grid grid-cols-2 gap-4 w-4/5 m-auto h-full mt-4">
+        
+        <div id="monir" class="rounded-lg bg-gray-800 text-white">
+           <img class="rounded-lg" src="assate/doler.png" alt="">
+        </div>
+        <div id="monir" class=" w-3/4 mx-4  rounded-lg bg-neutral-300 text-black text-center p-4 ">
+            <h2 class="mt-4 text-2xl font-bold">Income</h2>
+            <p class="mt-4 text-lg">Income: <input id="per-month-income" class="pl-2 rounded" type="text"></p>
+            <h2 class=" mt-3 text-xl font-bold">Expenses</h2>
+            <p class="mt-4 text-lg">Food: <input id="food-amount" class="mt-2 pl-2 rounded" type="text"></p>
+            <p class="mt-4 text-lg">Rent: <input id="rent-amount" class="mt-2 pl-2 rounded" type="text"></p>
+            <p class="mt-4 text-lg">Clothes: <input id="clothes-amount" class="mt-2 pl-2 rounded" type="text"></p>
+            <button id="all-calculate-btn" class="bg-indigo-600 text-white px-3 py-2 mt-4 rounded-lg">Calculate</button>
+            <h5 class="text-lg mt-2 font-medium">Total Expenses: <samp id="total-expense">00</samp></h5>
+            <h5 class="text-lg font-medium">Balance: <samp id="balance">00</samp></h5>
+
+            <p  class="mt-4 text-lg">Save: <input id="save-parcentage" class="pl-2 rounded" type="text"> % <button id="save" class="bg-indigo-600 text-white px-4 pb-1 mt-2 rounded-lg">save</button></p>
+
+            <h5 class="text-lg mt-4 font-medium">Saving Amount: <samp id="saving-amount">00</samp></h5>
+            <h5 class="text-lg font-medium">Remaining Balance: <samp id="remining">00</samp></h5>
+        </div>
+    </main>
+    <script src="js/js.js"></script>
+</body>
+</html>
